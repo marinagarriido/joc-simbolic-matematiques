@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joc simbòlic i matemàtiques</title>
+
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f6f1e7;
+      color:#3d342f;
+    }
+
+    header{
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:40px;
+    }
+
+    h1{
+      font-size:4rem;
+      margin-bottom:20px;
+    }
+
+    p{
+      max-width:700px;
+      line-height:1.7;
+      font-size:1.2rem;
+    }
+
+    .button{
+      margin-top:30px;
+      padding:16px 32px;
+      background:#3d342f;
+      color:white;
+      border-radius:40px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .button:hover{
+      transform:scale(1.05);
+    }
+
+    .spaces{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:30px;
+      padding:80px 40px;
+    }
+
+    .card{
+      background:white;
+      padding:40px;
+      border-radius:30px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .emoji{
+      font-size:4rem;
+    }
+
+    footer{
+      text-align:center;
+      padding:40px;
+      color:#7d6f63;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Joc simbòlic i matemàtiques</h1>
+
+  <p>
+    Una guia didàctica interactiva basada en espais de joc simbòlic
+    per afavorir l’aprenentatge matemàtic a Educació Infantil.
+  </p>
+
+  <a href="#espais" class="button">
+    Explorar espais
+  </a>
+</header>
+
+<section class="spaces" id="espais">
+
+  <div class="card">
+    <div class="emoji">🏥</div>
+    <h2>La farmàcia</h2>
+
+    <p>
+      Comptatge, medicaments, classificacions i balança.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="emoji">🎂</div>
+    <h2>La festa</h2>
+
+    <p>
+      Construcció de regals, taules i pastissos matemàtics.
+    </p>
+  </div>
+
+  <div class="card">
+    <div class="emoji">🍕</div>
+    <h2>La pizzeria</h2>
+
+    <p>
+      Receptes, mesures i ingredients interactius.
+    </p>
+  </div>
+
+</section>
+
+<footer>
+  Guia didàctica interactiva · Educació Infantil
+</footer>
+
+</body>
+</html>
